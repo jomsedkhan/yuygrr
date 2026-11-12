@@ -1,271 +1,855 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hara Dhon Digital Memory Dashboard</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- FontAwesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: #f8fafc;
-        }
-    </style>
+  <link rel="preconnect" href="https://script.crazyegg.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<meta charset="utf-8">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="alternate" hreflang="en" href="https://www.usa.gov/" data-type="conlang">
+<link rel="alternate" hreflang="es" href="https://www.usa.gov/es/" data-type="altlang">
+<link rel="canonical" href="https://www.usa.gov/">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_480w/public/2023-02/Homepage_Banner.png.webp?itok=oRUyh2zS" as="image" media="(max-width: 639.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_640w/public/2023-02/Homepage_Banner.png.webp?itok=YjZoK3id" as="image" media="(min-width: 640px) and (max-width: 719.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_720w/public/2023-02/Homepage_Banner.png.webp?itok=AAnRcXg_" as="image" media="(min-width: 720px) and (max-width: 959.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_960w/public/2023-02/Homepage_Banner.png.webp?itok=XTdqArEv" as="image" media="(min-width: 960px) and (max-width: 1023.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_1024w/public/2023-02/Homepage_Banner.png.webp?itok=i1ALXCH1" as="image" media="(min-width: 1024px) and (max-width: 1279.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_1280w/public/2023-02/Homepage_Banner.png.webp?itok=J1XI6S0_" as="image" media="(min-width: 1280px) and (max-width: 1439.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_1440w/public/2023-02/Homepage_Banner.png.webp?itok=I-x-PoQ3" as="image" media="(min-width: 1440px) and (max-width: 1535.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_1536w/public/2023-02/Homepage_Banner.png.webp?itok=_ADALubz" as="image" media="(min-width: 1536px) and (max-width: 1919.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_1920w/public/2023-02/Homepage_Banner.png.webp?itok=lAbiPNp-" as="image" media="(min-width: 1920px) and (max-width: 2047.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_2048w/public/2023-02/Homepage_Banner.png.webp?itok=O6y_Q-rP" as="image" media="(min-width: 2048px) and (max-width: 3071.9px)">
+<link rel="preload" href="https://www.usa.gov/s3/files/styles/max_3072w/public/2023-02/Homepage_Banner.png.webp?itok=AvW3HSyR" as="image" media="(min-width: 3072px)">
+<title>Making government services easier to find | USAGov</title>
+  <link rel="stylesheet" media="all" href="https://www.usa.gov/sites/default/files/css/css_N2AUz_F0YSNGa-kGz_YTSnAEFk9l0Rv5hyN8OmVNrlM.css?delta=0&amp;language=en&amp;theme=usagov&amp;include=eJwdyUsKwCAMRdEN2WZJEjGEQKKD5wd3X-zkDs7FwZCgwpA0wZlrWMsYxwUUx61c1r5IvRf25y5rmpbJBv19o9fp8gFn6R2f">
+<link rel="stylesheet" media="all" href="https://www.usa.gov/sites/default/files/css/css_RS0lu12kxAKVlYtiIn6qpAq__BevSHCXAmcrTugppls.css?delta=1&amp;language=en&amp;theme=usagov&amp;include=eJwdyUsKwCAMRdEN2WZJEjGEQKKD5wd3X-zkDs7FwZCgwpA0wZlrWMsYxwUUx61c1r5IvRf25y5rmpbJBv19o9fp8gFn6R2f">
+<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0007/9651.js" async="async"></script>
+    <script id="taxonomy-data">
+    dataLayer = [{
+    "nodeID": "1",
+    "language": "en",
+    "homepageTest": "homepage",
+    "basicPagesubType": "Home Page",
+    "contentType": "basic_page",
+    "Page_Type": "Home Page",
+    "Taxonomy_Text_1": "Home",
+    "Taxonomy_Text_2": "Home",
+    "Taxonomy_Text_3": "Home",
+    "Taxonomy_Text_4": "Home",
+    "Taxonomy_Text_5": "Home",
+    "Taxonomy_Text_6": "Home",
+    "Taxonomy_URL_1": "/",
+    "Taxonomy_URL_2": "/",
+    "Taxonomy_URL_3": "/",
+    "Taxonomy_URL_4": "/",
+    "Taxonomy_URL_5": "/",
+    "Taxonomy_URL_6": "/",
+    "hasBenefitCategory": false
+}];
+  </script>
+     <!-- Social Media -->
+    <meta property="fb:pages" content="65369158579">
+    <!-- End Social Media -->
+    <!-- Website Verification -->
+    <meta name="p:domain_verify" content="f3135f7662284cd99a63b43e8371757f">
+    <meta name="msvalidate.01" content="7ED9318B2E16491CECD0F0CFCB5594E8">
+    <!-- End Website Verification -->
+          <meta name="description" content="Find government benefits, services, agencies, and information at USA.gov. Contact elected officials. Learn about passports, Social Security, taxes, and more.">
+            <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "USA.gov",
+        "url": "https://usa.gov/"
+      }
+    </script>
+  <!-- Favicons -->
+  <link rel="icon" href="https://www.usa.gov/themes/custom/usagov/images/Favicon_USAGov.png">
+  <link rel="apple-touch-icon-precomposed" href="https://www.usa.gov/themes/custom/usagov/images/Favicon_USAGov.png">
+  <!-- Social Media -->
+  <meta property="og:url" content="https://www.usa.gov/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Making government services easier to find | USAGov">
+    <meta property="og:description" content="Find government benefits, services, agencies, and information at USA.gov. Contact elected officials. Learn about passports, Social Security, taxes, and more.">
+    <meta property="og:image" content="https://www.usa.govhttps://www.usa.gov/themes/custom/usagov/images/Logo_USAGov.png">
+  <meta property="og:image:secure_url" content="https://www.usa.govhttps://www.usa.gov/themes/custom/usagov/images/Logo_USAGov.png">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <!-- End Social Media -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://usa.gov/",
+      "logo": "https://www.usa.govhttps://www.usa.gov/themes/custom/usagov/images/Logo_USAGov.png"
+    }
+  </script>
 </head>
-<body class="text-slate-800 antialiased">
-    <!-- Top Navigation Bar -->
-    <nav class="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur-md">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="flex h-16 justify-between items-center">
-                <!-- Logo & Subdomain info -->
-                <div class="flex items-center space-x-3">
-                    <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-600 text-white shadow-md shadow-indigo-200">
-                        <i class="fa-solid fa-box-archive text-sm"></i>
-                    </div>
-                    <div>
-                        <span class="text-lg font-bold tracking-tight text-slate-900">Hara Dhon<span class="text-indigo-600"> Chodon</span></span>
-                        <p class="text-xs text-slate-400 font-medium">haradhon.com</p>
-                    </div>
-                </div>
-                <!-- Center Menu Items (Desktop Only) -->
-                <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
-                    <a href="#" class="text-indigo-600 transition-colors">Dashboard</a>
-                    <a href="#" class="hover:text-slate-900 transition-colors">My Memories</a>
-                    <a href="#" class="hover:text-slate-900 transition-colors">Order Tracking</a>
-                    <a href="#" class="hover:text-slate-900 transition-colors">Cloud Storage</a>
-                </div>
-                <!-- Right Side Actions -->
-                <div class="flex items-center space-x-4">
-                    <button class="relative rounded-full p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-all">
-                        <i class="fa-regular fa-bell text-xl"></i>
-                        <span class="absolute top-1.5 right-1.5 h-2 w-2 rounded-full bg-rose-500"></span>
-                    </button>
-                    <div class="flex items-center space-x-2 border-l border-slate-200 pl-4">
-                        <div class="h-8 w-8 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-semibold text-sm">
-                            JD
-                        </div>
-                        <span class="hidden sm:inline text-sm font-medium text-slate-700">John Doe</span>
-                    </div>
-                </div>
-            </div>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe title="GTM" sandbox src="https://www.googletagmanager.com/ns.html?id=GTM-W8LW6DB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+<a href="#skip-to-h1" class="usa-skipnav usa-sr-only focusable">
+ Skip to main content
+</a>
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended" id="header">
+<div class="usa-banner-inner">
+  <div>
+   <section class="usa-banner" aria-label="An official website of the United States government" id="usagov-banner">
+	<div class="usa-accordion">
+		<div class="usa-banner__header" role="banner">
+			<div class="usa-banner__inner">
+				<div class="grid-col-auto">
+					<img aria-hidden="true" class="usa-banner__header-flag" src="https://www.usa.gov/themes/custom/usagov/images/favicon-57.png" alt>
+				</div>
+				<div class="grid-col-fill tablet:grid-col-auto"> <p class="usa-banner__header-text">
+						An official website of the United States government
+					</p>
+					<p class="usa-banner__header-action usa-banner__header-action-mobile">Here's how you know</p>
+					<svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" class="usa-banner_expand_arrow usa-banner__header-action">
+						<path d="M0 0h24v24H0z" fill="none" />
+						<path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+					</svg>
+				</div>
+				<button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner-default">
+					<span class="usa-banner__button-text">Here's how you know</span>
+					<svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" class="usa-banner_expand_arrow usa-banner__button-text">
+						<path d="M0 0h24v24H0z" fill="none" />
+						<path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+					</svg>
+				</button>
+			</div>
+		</div>
+		<div class="usa-banner__content usa-accordion__content" id="gov-banner-default">
+			<div class="grid-row grid-gap-lg">
+				<div class="usa-banner__guidance tablet:grid-col-6">
+					<img class="usa-banner__icon usa-media-block__img" src="https://www.usa.gov/themes/custom/usagov/assets/img/icon-dot-gov.svg" alt aria-hidden="true">
+					<div class="usa-media-block__body">
+						<p>
+							<strong>Official websites use .gov</strong><br>
+							A <strong>.gov</strong> website belongs to an official government organization in the United States.
+						</p>
+					</div>
+				</div>
+				<div class="usa-banner__guidance tablet:grid-col-6">
+					<img class="usa-banner__icon usa-media-block__img" src="https://www.usa.gov/themes/custom/usagov/assets/img/icon-https.svg" alt aria-hidden="true">
+					<div class="usa-media-block__body">
+						<p>
+							<strong>Secure .gov websites use HTTPS</strong><br>
+							A <strong>lock</strong> (
+							<span class="icon-lock">
+								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" aria-labelledby="banner-lock-description-default">
+									<title>Lock</title>
+									<desc id="banner-lock-description-default">Locked padlock icon</desc>
+									<path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+								</svg>
+							</span>
+							) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+	document.getElementById('gov-banner-default').setAttribute('hidden', 'until-found');
+</script>
+<div id="block-usagov-mobilemenublock" class="settings-tray-editable block block-usagov-menus block-usagov-mobile-menu-block" data-drupal-settingstray="editable">
+<nav aria-label="Mobile primary navigation" class="usa-nav usagov-mobile-menu">
+  <div class="usa-nav__inner">
+    <div class="usagov-mobile-menu-top">
+      <div class="usagov-mobile-menu-controls">
+        <a id="home-link-mobile-menu" href="/">
+          <svg class="usa-icon text-base-darkest">
+            <use xlink:href="https://www.usa.gov/themes/custom/usagov/assets/img/sprite.svg#home" />
+          </svg>
+          Home
+        </a>
+        <button class="usa-nav__close">
+          <svg class="usa-icon text-base-darkest">
+            <use xlink:href="https://www.usa.gov/themes/custom/usagov/assets/img/sprite.svg#highlight_off" />
+          </svg>
+          Close
+        </button>
+      </div>
+      <div class="usa-nav__secondary">
+        <!-- Search Bar -->
+   <form id="usagov_all_gov-mobile" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-mobile" accept-charset="UTF-8" role="search">
+  <label id="top-srch-mobile-menu" class="usa-sr-only" for="search-field-small-mobile-menu">Search</label>
+  <input id="affiliate-mobile-menu" name="affiliate" type="hidden" value="usagov_en_internal">
+  <input id="search-field-small-mobile-menu" class="usa-input text usagov-search-autocomplete ui-autocomplete-input" type="search" name="query" autocomplete="off">
+  <button class="usa-button usagov-button" type="submit">
+    <img src="https://www.usa.gov/themes/custom/usagov/components/searchbar/images/search--dark.svg" class="usa-search__submit-icon" alt="Search">
+  </button>
+</form>
+        <div class="usa-nav__secondary-links">
+      <div>
+    <span id="top-phone-mobile-menu" class="usa-nav__secondary-item" data-contact-callout="visible">
+    <a href="https://www.usa.gov/phone" class>1-844-USAGOV1</a>
+</span>
+  </div>
         </div>
-    </nav>
-    <!-- Main Workspace Container -->
-    <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <!-- Welcome Hero Banner -->
-        <div class="mb-8 rounded-2xl bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 p-6 text-white shadow-xl md:p-10">
-            <div class="max-w-2xl">
-                <span class="inline-flex items-center rounded-full bg-indigo-500/20 px-3 py-1 text-xs font-semibold text-indigo-300 backdrop-blur-sm">
-                    <i class="fa-solid fa-sparkles mr-1.5"></i> All Digital Files Ready
-                </span>
-                <h1 class="mt-4 text-2xl font-bold tracking-tight sm:text-3xl lg:text-4xl">
-                    Welcome back to your safe haven of memories.
-                </h1>
-                <p class="mt-2 text-slate-300 text-sm sm:text-base leading-relaxed">
-                    Your analog tapes, photo prints, and films have been safely digitized in our facility and are permanently preserved here in your cloud terminal.
-                </p>
-                <div class="mt-6 flex flex-wrap gap-3">
-                    <button class="inline-flex items-center justify-center rounded-xl bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 transition-all cursor-pointer">
-                        <i class="fa-solid fa-cloud-arrow-down mr-2"></i> Download All Media
-                    </button>
-                    <button class="inline-flex items-center justify-center rounded-xl bg-white/10 px-4 py-2.5 text-sm font-semibold text-white backdrop-blur-sm hover:bg-white/20 transition-all cursor-pointer">
-                        <i class="fa-solid fa-share-nodes mr-2"></i> Share Album
-                    </button>
-                </div>
-            </div>
+      </div>
         </div>
-        <!-- Quick Statistics Row -->
-        <div class="mb-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            <!-- Stat 1 -->
-            <div class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-                <div class="flex items-center justify-between">
-                    <span class="text-sm font-medium text-slate-500">Total Digitized Items</span>
-                    <span class="rounded-lg bg-indigo-50 p-2 text-indigo-600"><i class="fa-solid fa-photo-film"></i></span>
-                </div>
-                <div class="mt-2">
-                    <span class="text-2xl font-bold text-slate-900">142</span>
-                    <span class="ml-2 text-xs font-medium text-emerald-600"><i class="fa-solid fa-check mr-0.5"></i> 100% Processed</span>
-                </div>
-            </div>
-            <!-- Stat 2 -->
-            <div class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-                <div class="flex items-center justify-between">
-                    <span class="text-sm font-medium text-slate-500">Storage Used</span>
-                    <span class="rounded-lg bg-amber-50 p-2 text-amber-600"><i class="fa-solid fa-hard-drive"></i></span>
-                </div>
-                <div class="mt-2">
-                    <span class="text-2xl font-bold text-slate-900">42.8 GB</span>
-                    <span class="ml-2 text-xs font-medium text-slate-400">of Unlimited</span>
-                </div>
-            </div>
-            <!-- Stat 3 -->
-            <div class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-                <div class="flex items-center justify-between">
-                    <span class="text-sm font-medium text-slate-500">Active Orders</span>
-                    <span class="rounded-lg bg-sky-50 p-2 text-sky-600"><i class="fa-solid fa-truck-ramp-box"></i></span>
-                </div>
-                <div class="mt-2">
-                    <span class="text-2xl font-bold text-slate-900">1 Active</span>
-                    <span class="ml-2 text-xs font-medium text-sky-600">In DigiFactory™</span>
-                </div>
-            </div>
-            <!-- Stat 4 -->
-            <div class="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-                <div class="flex items-center justify-between">
-                    <span class="text-sm font-medium text-slate-500">Shared Links</span>
-                    <span class="rounded-lg bg-rose-50 p-2 text-rose-600"><i class="fa-solid fa-link"></i></span>
-                </div>
-                <div class="mt-2">
-                    <span class="text-2xl font-bold text-slate-900">4 Active</span>
-                    <span class="ml-2 text-xs font-medium text-slate-400">32 Total views</span>
-                </div>
-            </div>
-        </div>
-        <!-- Main Grid Layout: Content + Order Tracking -->
-        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-            <!-- Left 2 Columns: Media Categories & Recent Uploads -->
-            <div class="lg:col-span-2 space-y-8">
-                <!-- Category Grid -->
-                <div>
-                    <h2 class="text-lg font-bold text-slate-900 mb-4">Your Memory Vaults</h2>
-                    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
-                        <div class="group rounded-xl border border-slate-200 bg-white p-4 text-center hover:border-indigo-500 hover:shadow-md transition-all cursor-pointer">
-                            <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-rose-50 text-rose-600 group-hover:bg-rose-100 transition-colors">
-                                <i class="fa-solid fa-tape text-lg"></i>
-                            </div>
-                            <h3 class="mt-3 text-sm font-semibold text-slate-900">VHS & Tapes</h3>
-                            <p class="text-xs text-slate-400 mt-0.5">12 Videos</p>
-                        </div>
+          <ul class="navigation__items ancestors">
+          <li class="navigation__item active">
+            <a href="/#all-topics-header">All topics and services</a>
+            <ul class="navigation__items children">
+             <li class="navigation__item child">
+                  <a href="https://www.usa.gov/about-the-us">The U.S. and its government</a>
+                </li>
+              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/complaints">Complaints</a>
+                </li>
+              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/disability-services">Disability services</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/disasters-and-emergencies">Disasters and emergencies</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/education">Education</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/benefits">Government benefits</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/health">Health</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/housing-help">Housing help</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/immigration-and-citizenship">Immigration and U.S. citizenship</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/innovation">Innovation</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/jobs-labor-laws-unemployment">Jobs, labor laws and unemployment</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/laws-and-legal-issues">Laws and legal issues</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/military-and-veterans">Military and veterans</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/money">Money and credit</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/scams-and-fraud">Scams and fraud</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/small-business">Small business</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/taxes">Taxes</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/travel">Travel</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/voting-and-elections">Voting and elections</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/life-events">Life events</a>
+                </li>
+                              <li class="navigation__item child">
+                  <a href="https://www.usa.gov/about">About USAGov</a>
+                </li>
+             </ul>
+          </li>
+        </ul>
+  </div>
+</nav>
+  </div>
+  </div>
+	</div>
+	  <div class="usa-navbar">
+	<div class="usa-logo" id="extended-logo">
+		<em class="usa-logo-text">
+			<a href="/" title="USAGov Logo">
+				<img src="https://www.usa.gov/themes/custom/usagov/images/USAGov_logo_51px.png" srcset="https://www.usa.gov/themes/custom/usagov/images/USAGov_Logo_80px.png 80w," sizes="(min-width: 1024px) 80px, 51px" alt="USAGov Logo">
+			</a>
+		</em>
+	</div>
+	<div class="navbar-right">
+<a href="https://www.usa.gov/es/" class="usa-button language-link" hreflang="es" role="button">Español</a>
+<button class="usa-menu-btn">Menu</button>
+<div class="usa-nav__secondary">
+	<div class="usa-nav__secondary-links">
+   <div>
+  <span id="top-phone" class="usa-nav__secondary-item" data-contact-callout="visible">
+  <a href="https://www.usa.gov/phone" style="white-space: nowrap;">Call us at 1-844-USAGOV1</a>
+</span>
+  </div>
+	</div>
+	<!-- Search Bar -->
+	<form id="usagov_all_gov-desktop" class="usa-search usa-search--small" action="https://search.usa.gov/search" method="get" name="usagov_all_gov-desktop" accept-charset="UTF-8" role="search">
+  <label id="top-srch" class="usa-sr-only" for="search-field-small">Search</label>
+  <input id="affiliate" name="affiliate" type="hidden" value="usagov_en_internal">
+  <input id="search-field-small" class="usa-input text usagov-search-autocomplete ui-autocomplete-input" type="search" name="query" autocomplete="off">
+  <button class="usa-button" type="submit">
+    <img src="https://www.usa.gov/themes/custom/usagov/components/searchbar/images/search--dark.svg" class="usa-search__submit-icon" alt="Search">
+  </button>
+</form>
+	</div>
+	</div>
+</div>
+<nav aria-label="Primary navigation" class="usa-nav">
+	<div class="usa-nav__inner">
+		<button class="usa-nav__close">
+			<img src="https://www.usa.gov/themes/custom/usagov/assets/img/usa-icons/close.svg" alt="Close">
+		</button>
+		<ul class="usa-nav__primary usa-accordion">
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="/#all-topics-header" class="usa-nav__link">
+				<span>All topics and services</span>
+			</a>
+		</li>
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="https://www.usa.gov/about-the-us" class="usa-nav__link">
+				<span>The U.S. and its government</span>
+			</a>
+		</li>
+			<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="https://www.usa.gov/benefits" class="usa-nav__link">
+				<span>Government benefits</span>
+			</a>
+		</li>
+		<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="https://www.usa.gov/immigration-and-citizenship" class="usa-nav__link">
+		<span>Immigration and U.S. citizenship</span>
+			</a>
+		</li>
+	<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="https://www.usa.gov/money" class="usa-nav__link">
+	<span>Money and credit</span>
+	</a>
+		</li>
+	<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="https://www.usa.gov/taxes" class="usa-nav__link">
+				<span>Taxes</span>
+			</a>
+		</li>
+	<li class="usa-nav__primary-item usa-nav___primary-item-smaller-padding">
+      <a href="https://www.usa.gov/travel" class="usa-nav__link">
+				<span>Travel</span>
+			</a>
+		</li>
+	</ul>
+	</div>
+</nav>
+</header>
+	<main class="main-content usa-layout-docs no-footer-gap " id="main-content" data-pagetype="Home Page">
+	<div id="block-usagov-content" class="block block-system block-system-main-block">
+<div class="main-grid">
+	<style>
+	.banner-div {
+		background-image: url(https://www.usa.gov/s3/files/styles/max_480w/public/2023-02/Homepage_Banner.png.webp?itok=oRUyh2zS);
+	}
 
-                        <div class="group rounded-xl border border-slate-200 bg-white p-4 text-center hover:border-indigo-500 hover:shadow-md transition-all cursor-pointer">
-                            <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 group-hover:bg-emerald-100 transition-colors">
-                                <i class="fa-solid fa-images text-lg"></i>
-                            </div>
-                            <h3 class="mt-3 text-sm font-semibold text-slate-900">Photo Prints</h3>
-                            <p class="text-xs text-slate-400 mt-0.5">105 Images</p>
-                        </div>
+	/* Tablet 1x */
+	@media(min-width: 640px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_640w/public/2023-02/Homepage_Banner.png.webp?itok=YjZoK3id);
+		}
+	}
 
-                        <div class="group rounded-xl border border-slate-200 bg-white p-4 text-center hover:border-indigo-500 hover:shadow-md transition-all cursor-pointer">
-                            <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-amber-50 text-amber-600 group-hover:bg-amber-100 transition-colors">
-                                <i class="fa-solid fa-film text-lg"></i>
-                            </div>
-                            <h3 class="mt-3 text-sm font-semibold text-slate-900">Film Reels</h3>
-                            <p class="text-xs text-slate-400 mt-0.5">25 Reels</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Recent Media Library Mockup -->
-                <div>
-                    <div class="flex items-center justify-between mb-4">
-                        <h2 class="text-lg font-bold text-slate-900">Recent Digitized Previews</h2>
-                        <a href="#" class="text-sm font-semibold text-indigo-600 hover:text-indigo-700">View All</a>
-                    </div>
-                    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                        <!-- Media Card 1 -->
-                        <div class="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-all">
-                            <div class="relative aspect-video bg-slate-200 flex items-center justify-center overflow-hidden group">
-                                <div class="absolute inset-0 bg-slate-900/10 group-hover:bg-slate-900/30 transition-all z-10"></div>
-                                <i class="fa-solid fa-circle-play text-4xl text-white/90 drop-shadow-md z-20 group-hover:scale-110 transition-transform"></i>
-                                <!-- SVG Placeholder matching memory aesthetic -->
-                                <svg class="absolute inset-0 h-full w-full object-cover text-slate-300" fill="currentColor" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg>
-                            </div>
-                            <div class="p-4">
-                                <div class="flex items-center justify-between">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-rose-600">VHS Transfer</span>
-                                    <span class="text-xs text-slate-400">14 Mins</span>
-                                </div>
-                                <h4 class="mt-1 font-semibold text-slate-900">Christmas Morning (1994)</h4>
-                                <p class="text-xs text-slate-500 mt-0.5">File: LB-V0942_01.mp4</p>
-                            </div>
-                        </div>
-                        <!-- Media Card 2 -->
-                        <div class="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-all">
-                            <div class="relative aspect-video bg-slate-200 flex items-center justify-center overflow-hidden group">
-                                <div class="absolute inset-0 bg-slate-900/10 group-hover:bg-slate-900/30 transition-all z-10"></div>
-                                <i class="fa-solid fa-expand text-2xl text-white/90 drop-shadow-md z-20 opacity-0 group-hover:opacity-100 transition-opacity"></i>
-                                <svg class="absolute inset-0 h-full w-full object-cover text-slate-400" fill="currentColor" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg>
-                            </div>
-                            <div class="p-4">
-                                <div class="flex items-center justify-between">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-emerald-600">High-Res Scan</span>
-                                    <span class="text-xs text-slate-400">600 DPI</span>
-                                </div>
-                                <h4 class="mt-1 font-semibold text-slate-900">Summer Beach Vacation</h4>
-                                <p class="text-xs text-slate-500 mt-0.5">File: LB-P0219_45.jpg</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+	/* Mobile 1.5x */
+	@media(min-width: 720px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_720w/public/2023-02/Homepage_Banner.png.webp?itok=AAnRcXg_);
+		}
+	}
+
+	/* Tablet 1.5x & Mobile 2x */
+	@media(min-width: 960px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_960w/public/2023-02/Homepage_Banner.png.webp?itok=XTdqArEv);
+		}
+	}
+
+	/* Desktop 1x */
+	@media(min-width: 1024px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_1024w/public/2023-02/Homepage_Banner.png.webp?itok=i1ALXCH1);
+		}
+	}
+
+	/* Tablet 2x */
+	@media(min-width: 1280px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_1280w/public/2023-02/Homepage_Banner.png.webp?itok=J1XI6S0_);
+		}
+	}
+
+	/* Mobile 3x */
+	@media(min-width: 1440px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_1440w/public/2023-02/Homepage_Banner.png.webp?itok=I-x-PoQ3);
+		}
+	}
+
+
+	/* Desktop 1.5x */
+	@media(min-width: 1536px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_1536w/public/2023-02/Homepage_Banner.png.webp?itok=_ADALubz);
+		}
+	}
+
+	/* Tablet 3x */
+	@media(min-width: 1920px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_1920w/public/2023-02/Homepage_Banner.png.webp?itok=lAbiPNp-);
+		}
+	}
+
+	/* Desktop 2x */
+	@media(min-width: 2048px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_2048w/public/2023-02/Homepage_Banner.png.webp?itok=O6y_Q-rP);
+		}
+	}
+
+	/* Desktop 3x */
+	@media(min-width: 3072px) {
+		.banner-div {
+			background-image: url(https://www.usa.gov/s3/files/styles/max_3072w/public/2023-02/Homepage_Banner.png.webp?itok=AvW3HSyR);
+		}
+	}
+</style>
+<div class="banner-wrapper">
+	<div class="banner-div"></div>
+</div>
+<div class="welcome-box-wrapper">
+	<div class="welcome-box">
+		<h1 id="skip-to-h1">
+			Making government services easier to find
+		</h1>
+		<p>
+			USA.gov helps you locate and understand government benefits, programs, and information.
+		</p>
+	</div>
+</div>
+	<div class="blue-back"></div>
+	<div class="how-box">
+	<h2>How do I ...</h2>
+	<ul class="how-button-list">
+			<li class="how-button">
+				<a href="https://www.usa.gov/confirm-voter-registration">
+					Check my voter registration
+			</a>
+			</li>
+			<li class="how-button">
+			<a href="https://www.usa.gov/passport">
+					Get or renew a passport
+				</a>
+			</li>
+			<li class="how-button">
+			<a href="https://www.usa.gov/housing-help">
+					Get housing help
+				</a>
+			</li>
+				<li class="how-button">
+				<a href="https://www.usa.gov/unclaimed-money">
+					Find unclaimed money
+				</a>
+			</li>
+		</ul>
+</div>
+	<div class="jump jump1">
+		<a href="#all-topics-header">
+	<div id="jump_block">
+		<span>Jump to all topics and services</span>
+		<img src="https://www.usa.gov/themes/custom/usagov/images/Reimagined_Jump_to_Arrow.svg" alt>
+	</div>
+</a>
+	</div>
+      <div class="benefits-block-bg">
+      <div class="benefits-block">
+      <img alt src="https://www.usa.gov/themes/custom/usagov/images/topics/ICONS_Reimagined_Benefits.svg" height="56">
+      <div class="benefits-text">
+        <h2>Government benefits and financial assistance</h2>
+        <div class="benefits-block__content"><p>Discover government benefits that you may be eligible for and learn how to apply.</p></div>
+      </div>
+      <a href="https://www.usa.gov/benefit-finder" class="usa-button benefits-link" role="button">
+          Find benefits</a>
+    </div>
+    </div>
+	<div class="all-topics-header" id="all-topics-header">
+	<h2>All topics and services</h2>
+</div>
+<div class="all-topics"></div>
+</div>
+  </div>
+  <div class="all-topics-background">
+    <div class="smaller-width-div">
+      <ul class="homepage-card-group usa-card-group">
+        <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/about-the-us">
+              <div class="homepage-icon topic-icon icon-about lazyload" data-bg="icon-about"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>The U.S. and its government</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+              <p>Learn about U.S. laws, history, and more. Buy government property. Contact elected officials and federal agencies.</p>
+             </div>
+            </a>
+          </li>
+          <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/complaints">
+              <div class="homepage-icon topic-icon icon-complaints lazyload" data-bg="icon-complaints"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Complaints</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+              <p>File complaints involving government agencies, telemarketers, products and services, travel, housing, and banking.</p>
+             </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/disability-services">
+              <div class="homepage-icon topic-icon icon-disability lazyload" data-bg="icon-disability"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Disability services</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Find government benefits and programs for people with disabilities and their families.</p>
+             </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/disasters-and-emergencies">
+              <div class="homepage-icon topic-icon icon-disasters lazyload" data-bg="icon-disasters"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Disasters and emergencies</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Learn about disaster assistance and find government benefits for other emergencies.</p>
             </div>
-            <!-- Right Column: Current Order Status Tracker -->
-            <div class="space-y-6">
-                <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-                    <h3 class="text-base font-bold text-slate-900 mb-4">Active Order Tracking</h3>
-                    <div class="mb-4 flex items-center justify-between rounded-xl bg-slate-50 p-3 border border-slate-100">
-                        <div>
-                            <p class="text-xs text-slate-400 font-medium">Order Number</p>
-                            <p class="text-sm font-bold text-slate-800">#LBOX-8762915</p>
-                        </div>
-                        <span class="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-medium text-amber-800 border border-amber-200">
-                           <span class="mr-1.5 h-1.5 w-1.5 rounded-full bg-amber-500 animate-pulse"></span> Digitizing
-                        </span>
-                    </div>
-                    <!-- Custom Timeline Steps -->
-                    <div class="relative pl-6 space-y-6 before:absolute before:bottom-2 before:top-2 before:left-2 before:w-0.5 before:bg-slate-200">
-                        <!-- Step 1 Complete -->
-                        <div class="relative">
-                            <div class="absolute -left-6 flex h-4 w-4 items-center justify-center rounded-full bg-emerald-500 ring-4 ring-white">
-                                <i class="fa-solid fa-check text-[10px] text-white"></i>
-                            </div>
-                            <p class="text-xs font-bold text-slate-900">Kit Received at Facility</p>
-                            <p class="text-[11px] text-slate-400">Chattanooga, TN Campus</p>
-                        </div>
-                        <!-- Step 2 Active -->
-                        <div class="relative">
-                            <div class="absolute -left-6 flex h-4 w-4 items-center justify-center rounded-full bg-indigo-600 ring-4 ring-indigo-50">
-                                <span class="h-1.5 w-1.5 rounded-full bg-white"></span>
-                            </div>
-                            <p class="text-xs font-bold text-indigo-600">Hand-Digitizing in Progress</p>
-                            <p class="text-[11px] text-slate-500 font-medium">Items barcoded & undergoing frame-by-frame processing.</p>
-                        </div>
-                        <!-- Step 3 Pending -->
-                        <div class="relative">
-                            <div class="absolute -left-6 flex h-4 w-4 items-center justify-center rounded-full bg-slate-200 ring-4 ring-white"></div>
-                            <p class="text-xs font-semibold text-slate-400">Quality Assurance Check</p>
-                        </div>
-                        <!-- Step 4 Pending -->
-                        <div class="relative">
-                            <div class="absolute -left-6 flex h-4 w-4 items-center justify-center rounded-full bg-slate-200 ring-4 ring-white"></div>
-                            <p class="text-xs font-semibold text-slate-400">Return Shipping (Original Media)</p>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 border-t border-slate-100 pt-4 text-center">
-                        <button class="w-full inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 transition-colors cursor-pointer">
-                            View Full History & Logistics
-                        </button>
-                    </div>
-                </div>
-                <!-- Support Banner -->
-                <div class="rounded-xl bg-indigo-50 border border-indigo-100 p-5 text-center">
-                    <p class="text-xs font-bold text-indigo-700 uppercase tracking-wider">Need Assistance?</p>
-                    <p class="text-xs text-indigo-950 mt-1">Our preservation team is here 24/7 onsite to protect your data.</p>
-                    <a href="mailto:support@haradhon.com" class="mt-3 inline-block text-xs font-bold text-indigo-600 hover:underline">Contact Cloud Support →</a>
-                </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/education">
+              <div class="homepage-icon topic-icon icon-education lazyload" data-bg="icon-education"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Education</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+              <p>Learn about Federal Student Aid and studying in the U.S. Find early intervention, special education, and Head Start programs.</p>
             </div>
-
-        </div>
-    </main>
-    <!-- Footer Area -->
-    <footer class="mt-20 border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-400 font-medium">
-        <p>© 2026 Hara Dhon. All Rights Reserved. Protected with Fortune 100 enterprise grade storage security.</p>
-    </footer>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/benefits">
+              <div class="homepage-icon topic-icon icon-benefits lazyload" data-bg="icon-benefits"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Government benefits</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+              <p>Find government programs that may help pay for food, housing, health care, and more.</p>
+             </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/health">
+              <div class="homepage-icon topic-icon icon-health lazyload" data-bg="icon-health"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Health</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+              <p>Get information about health insurance. Find help for mental health and other medical conditions, testing, and paying medical bills.</p>
+             </div>
+            </a>
+          </li>
+          <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/housing-help">
+              <div class="homepage-icon topic-icon icon-housing lazyload" data-bg="icon-housing"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Housing help</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Learn about rental and buyer assistance programs. Find emergency housing and avoid eviction.</p>
+            </div>
+            </a>
+          </li>
+          <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/immigration-and-citizenship">
+              <div class="homepage-icon topic-icon icon-immigration lazyload" data-bg="icon-immigration"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Immigration and U.S. citizenship</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Learn about U.S. residency, Green Cards, citizenship requirements, and related issues.</p>
+             </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/innovation">
+              <div class="homepage-icon topic-icon icon-innovation lazyload" data-bg="icon-innovation"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Innovation</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Find ways you can participate through citizen science projects and challenges. Explore active competitions and volunteer opportunities. Innovation is essential to solving problems.</p>
+           </div>
+            </a>
+          </li>
+          <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/jobs-labor-laws-unemployment">
+              <div class="homepage-icon topic-icon icon-jobs lazyload" data-bg="icon-jobs"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Jobs, labor laws, and unemployment</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Get resources for finding a job. Learn about unemployment insurance and important labor laws.</p>
+             </div>
+            </a>
+          </li>
+          <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/laws-and-legal-issues">
+              <div class="homepage-icon topic-icon icon-laws lazyload" data-bg="icon-laws"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Laws and legal issues</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+              <p>Learn how to replace vital records, get child support enforcement, find legal help, and more.</p>
+              </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/military-and-veterans">
+              <div class="homepage-icon topic-icon icon-military lazyload" data-bg="icon-military"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Military and veterans</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+              <p>Learn how to join the military. Find benefits and services as a member or veteran, including how to apply for housing, financial, health, and other support.</p>
+             </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/money">
+              <div class="homepage-icon topic-icon icon-money lazyload" data-bg="icon-money"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Money and credit</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+           <p>Find government grants, loans, and unclaimed money. Learn about taxes. Get credit reports and scores.</p>
+            </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/scams-and-fraud">
+              <div class="homepage-icon topic-icon icon-scams lazyload" data-bg="icon-scams"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Scams and fraud</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Learn about identity theft, Social Security scams, and how to report scams and fraud. </p>
+            </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/small-business">
+              <div class="homepage-icon topic-icon icon-business lazyload" data-bg="icon-business"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Small business</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+              <p>Learn how to start, fund, and manage your own business. Understand how to get import and export licenses.</p>
+            </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/taxes">
+              <div class="homepage-icon topic-icon icon-taxes lazyload" data-bg="icon-taxes"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Taxes</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Learn about filing federal income tax. Find out how to pay, how to check your refund, and more.</p>
+             </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/travel">
+              <div class="homepage-icon topic-icon icon-travel lazyload" data-bg="icon-travel"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Travel</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+            <p>Learn about passports, travel documents for minors, and travel to, from, and within the U.S.</p>
+            </div>
+            </a>
+          </li>
+          <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/voting-and-elections">
+              <div class="homepage-icon topic-icon icon-voting lazyload" data-bg="icon-voting"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Voting and elections</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Find out how to register to vote, where your voting location is, how presidential elections work, and more about voting in the United States.</p>
+            </div>
+            </a>
+          </li>
+           <li class="homepage-card usa-card__container">
+            <a href="https://www.usa.gov/life-events">
+              <div class="homepage-icon topic-icon icon-life-events lazyload" data-bg="icon-life-events"></div>
+              <div class="usa-card__header homepage-card_header">
+                <h2>Life events</h2>
+              </div>
+              <div class="usa-card__body homepage-card-description">
+             <p>Discover government benefits and services to help you and your family through every stage of life.</p>
+             </div>
+            </a>
+          </li>
+        </ul>
+    </div>
+  </div>
+<div class="views-element-container settings-tray-editable block block-views block-views-blockwizard-step-test-block-1" id="block-views-block-wizard-step-test-block-1" data-drupal-settingstray="editable">
+      <div><div class="js-view-dom-id-fc85a6bf80db315ebc42c337c92d00cfb97131ca3aef63f104ccb9263966665d">
+</div>
+</div>
+  </div>
+	<a id="back-to-top" href="#main-content" aria-label="Back to top">
+			Top
+	</a>
+	</main>
+  <footer class="usa-footer usa-footer--big">
+<div class="usa-footer__primary-section">
+	<div class="grid-container">
+		<div class="grid-row grid-gap">
+			<div class="tablet:grid-col-12">
+				<nav class="usa-footer__nav" aria-label="Footer navigation">
+					<div class="grid-row grid-gap-4">
+					<div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+					<section class=" usa-footer__primary-content usa-footer__primary-content--collapsible ">
+						<h3 class="usa-gov-footer__primary-link">Government information</h3>
+						<ul class="usa-list usa-list--unstyled">
+						<li class="usa-footer__secondary-link">
+						<a href="/#all-topics-header">All topics and services</a>
+					</li>
+					<li class="usa-footer__secondary-link">
+						<a href="https://www.usa.gov/agency-index">Directory of U.S. government agencies and departments</a>
+					</li>	<li class="usa-footer__secondary-link">
+						<a href="https://www.usa.gov/branches-of-government">Branches of government</a>
+					</li>		
+						</ul>
+					</section>
+				</div>
+					<div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+					<section class=" usa-footer__primary-content usa-footer__primary-content--collapsible ">
+						<h3 class="usa-gov-footer__primary-link">About us</h3>
+						<ul class="usa-list usa-list--unstyled">
+						<li class="usa-footer__secondary-link">
+						<a href="https://www.usa.gov/about">About USAGov</a>
+					</li>
+						<li class="usa-footer__secondary-link">
+						<a href="https://www.usa.gov/site-issue-report-form">Report a website issue</a>
+					</li>
+						<li class="usa-footer__secondary-link">
+						<a href="https://www.usa.gov/website-analytics/">Website usage data</a>
+					</li>
+									
+						</ul>
+					</section>
+				</div>
+					<div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+					<section class=" usa-footer__primary-content usa-footer__primary-content--collapsible ">
+						<h3 class="usa-gov-footer__primary-link">For federal agencies</h3>
+												<ul class="usa-list usa-list--unstyled">
+						<li class="usa-footer__secondary-link">
+						<a href="https://www.usa.gov/partner-with-usagov">Partner with us</a>
+					</li>
+						<li class="usa-footer__secondary-link">
+						<a href="https://www.usa.gov/blog">Read our blog</a>
+					</li>		
+						</ul>
+					</section>
+				</div>
+					<div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+					<section class=" usa-footer__primary-content usa-footer__primary-content--collapsible ">
+						<h3 class="usa-gov-footer__primary-link">For media</h3>
+					<ul class="usa-list usa-list--unstyled">
+						<li class="usa-footer__secondary-link">
+						<a href="https://www.usa.gov/outreach">USAGov Outreach</a>
+					</li>
+					<li class="usa-footer__secondary-link">
+						<a href="https://www.usa.gov/features">Feature articles</a>
+					</li>
+						</ul>
+					</section>
+				</div>
+					</div>
+				</nav>
+			</div>
+          <!-- Email form was removed in USAGOV-2374 -->
+		</div>
+	</div>
+</div>
+<script src="https://www.usa.gov/themes/custom/usagov/scripts/newFooter.js" defer="defer"></script>
+<div class="usa-footer__secondary-section">
+	<div class="grid-container">
+		<div class="grid-row grid-gap">
+			<div class="usa-footer__logo grid-row mobile-lg:grid-col-6">
+          <div>
+    <div id="footer-phone" data-contact-callout="visible">
+   <div class="mobile-lg:grid-col-auto">
+      <h4 class="usa-footer__logo-heading">USAGov Contact Center</h4>
+   </div>
+   <div class="mobile-lg:grid-col-auto">
+      <p class="footer-question">Ask USA.gov a question at</p>
+      <address class="usa-footer__address">
+         <div class="usa-footer__contact-info">
+            <a href="https://www.usa.gov/phone">1-844-USAGOV1 (1-844-872-4681)</a>
+         </div>
+      </address>
+   </div>
+</div>
+  </div>
+		</div>
+			<div class="usa-footer__contact-links mobile-lg:grid-col-6">
+				<div class="footer-social-block">
+					<!-- Social Media icons were removed in USAGOV-2374 -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="usa-identifier">
+  <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="USAGov is the official guide to government information and services">
+    <div class="usa-identifier__container">
+		<section class="usa-identifier__identity" aria-label="An official website of the U.S. General Services Administration">
+      <p class="usa-identifier__identity-disclaimer">USAGov is the official guide to government information and services</p>
+    	<p class="usa-identifier__identity-disclaimer">An official website of the <a href="https://www.gsa.gov/">U.S. General Services Administration</a></p>
+		</section>
+    </div>
+  </section>
+  <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        <li class="usa-identifier__required-links-item">
+              <a href="https://www.usa.gov/accessibility-policy" class="usa-identifier__required-link usa-link">Accessibility policy</a>
+            </li>
+            <li class="usa-identifier__required-links-item">
+              <a href="https://www.usa.gov/privacy-security" class="usa-identifier__required-link usa-link">Privacy and security policies</a>
+            </li>
+            <li class="usa-identifier__required-links-item">
+              <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link">FOIA requests</a>
+            </li>
+         </ul>
+    </div>
+  </nav>
+</div>
+</footer>
+<script src="https://www.usa.gov/themes/custom/usagov/scripts/modifyMobileNav.js"></script>
 </body>
 </html>
